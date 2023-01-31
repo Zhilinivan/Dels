@@ -1,0 +1,20 @@
+.module__title {
+  margin: 20px 40px 0;
+  padding: 0;
+  color: rgb(12, 50, 146);
+  font-family: 'inter';
+  font-style:  normal;
+  font-weight: 700;
+  font-size: 38px;
+  position: absolute;
+  top: 50px;
+  left: 30px
+}
+
+@media screen and (width < 767px) {
+  .module__title {
+    top: 20px;
+    left: 10px; 
+    font-size: 20px;
+  }
+}  

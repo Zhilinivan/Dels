@@ -1,0 +1,9 @@
+.menu {
+  margin: 10px auto 0;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  background-color: rgb(12, 50, 146);
+  border-radius: 10px;
+}

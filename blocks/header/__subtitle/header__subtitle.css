@@ -1,0 +1,16 @@
+.header__subtitle {
+  margin: 0;
+  padding: 0; 
+  color: rgb(12, 50, 146);
+  font-family: 'inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+}
+
+@media screen and (width < 767px) {
+  .header__subtitle {
+    font-size: px;
+  }
+}  

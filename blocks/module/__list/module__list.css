@@ -1,0 +1,24 @@
+.module__list {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  color: rgb(12, 50, 146);
+  font-family: 'inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-size: 22px;
+} 
+
+li {
+  margin-bottom: 8px
+ }
+
+ @media screen and (width < 767px) {
+  .module__list {
+    top: 90px;
+    left: 30px; 
+    font-size: 16px;
+  }
+}  

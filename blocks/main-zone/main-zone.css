@@ -1,0 +1,7 @@
+.main-zone {
+  margin: 20px auto 0;
+  padding: 0;
+  max-width: 1280px;
+  height: 70vh;
+  position: relative;
+}

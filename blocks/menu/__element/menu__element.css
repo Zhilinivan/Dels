@@ -1,0 +1,26 @@
+.menu__element {
+  margin: 0 30px 0;
+  padding: 0;
+  color: white;
+  font-family: 'inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  border: 0;
+  background-color:rgb(12, 50, 146);
+  max-width: 20%;
+}
+
+.menu__element:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+@media screen and (width < 1024px) {
+  .menu__element {
+    margin: 0 10px 0;
+    font-size: 8px;
+  }
+}  
+
