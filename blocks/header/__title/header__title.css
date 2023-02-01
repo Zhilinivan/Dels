@@ -7,14 +7,14 @@
   background-size: cover;
 }
 
-@media screen and ((max-width: 767px)) {
+@media screen and (max-width: 767px) {
   .header__title {
     width: 100px;
     height: 30px;
   }
 }
 
-@media screen and ((max-device-width: 767px)) {
+@media screen and (max-device-width: 767px) {
   .header__title {
     width: 100px;
     height: 30px;
