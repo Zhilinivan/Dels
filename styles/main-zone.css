@@ -1,0 +1,145 @@
+.main-zone {
+  margin: 15px auto 15px;
+  padding: 0;
+  max-width: 1280px;
+  height: 480px;
+  position: relative;
+}
+
+.module {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+  opacity: 0;
+}
+
+.module_opened {
+  display: flex;
+  z-index: 1;
+  opacity: 1;
+  transition: opacity 2s, ease, 1s;
+}
+
+.module__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  opacity: 0.4;
+}
+
+.module__title {
+  margin: 0;
+  padding: 0;
+  color: rgb(12, 50, 146);
+  font-family: 'inter';
+  font-style:  normal;
+  font-weight: 700;
+  font-size: 38px;
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  text-align: center;
+}
+
+.module__list {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 130px;
+  left: 100px;
+  color: rgb(12, 50, 146);
+  font-family: 'inter';
+  font-style:  normal;
+  font-weight: 500;
+  font-size: 22px;
+  max-width: 80vw;
+} 
+
+li {
+  margin-bottom: 8px
+}
+
+ @media screen and (max-width: 1024px) {
+
+  .module__title {
+    top: 30px;
+    left: 30px; 
+    font-size: 28px;
+  }
+  
+  .module__list {
+    top: 95px;
+    left: 50px; 
+    font-size: 18px;
+  }
+
+  li {
+    margin-bottom: 6px;
+  }
+}
+
+ @media screen and (max-device-width: 1024px) {
+  
+  .module__title {
+    top: 30px;
+    left: 30px; 
+    font-size: 28px;
+  }
+  
+  .module__list {
+    top: 95px;
+    left: 50px; 
+    font-size: 18px;
+  }
+
+  li {
+    margin-bottom: 6px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .module__title {
+    top: 20px;
+    left: 30px; 
+    font-size: 20px;
+  }
+  
+  .module__list {
+    top: 95px;
+    left: 40px; 
+    font-size: 16px;
+  }
+
+  li {
+    margin-bottom: 4px;
+  }
+}
+
+ @media screen and (max-device-width: 768px) {
+  
+  .module__title {
+    top: 20px;
+    left: 30px; 
+    font-size: 20px;
+  }
+  
+  .module__list {
+    top: 95px;
+    left: 40px; 
+    font-size: 16px;
+  }
+
+  li {
+    margin-bottom: 4px;
+  }
+}
+
