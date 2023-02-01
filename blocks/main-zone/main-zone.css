@@ -5,5 +5,10 @@
   height: 72vh;
   min-height: 250px;
   position: relative;
+  display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex; /* NEW */
+-webkit-flex-wrap: wrap; /* NEW */
 }
 
