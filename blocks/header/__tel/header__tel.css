@@ -10,7 +10,7 @@
   text-decoration: none;
 }
 
-@media screen and (width < 767px) {
+@media all and (width < 767px) {
   .header__tel {
     font-size: 16px;
   }

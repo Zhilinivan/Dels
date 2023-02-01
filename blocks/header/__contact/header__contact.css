@@ -7,7 +7,7 @@
   row-gap: 7px;
 }
 
-@media screen and (width < 1023px) {
+@media all and (width < 1023px) {
   .header__contact {
     row-gap: 4px;
   }

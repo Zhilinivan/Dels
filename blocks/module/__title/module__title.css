@@ -11,7 +11,7 @@
   left: 30px
 }
 
-@media screen and (width < 1024px) {
+@media all and (width < 1024px) {
   .module__title {
     top: 20px;
     left: 10px; 

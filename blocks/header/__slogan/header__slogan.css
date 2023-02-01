@@ -10,7 +10,7 @@
   align-self: center;
 }
 
-@media screen and (width < 767px) {
+@media all and (width < 767px) {
   .header__slogan {
     display: none;
   }

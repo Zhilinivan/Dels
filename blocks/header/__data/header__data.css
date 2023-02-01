@@ -10,7 +10,7 @@
   text-align: center;  
 }
 
-@media screen and (width < 767px) {
+@media all and (width < 767px) {
   .header__data {
     font-size: 12px;
   }
