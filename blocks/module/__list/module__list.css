@@ -15,10 +15,16 @@ li {
   margin-bottom: 8px
  }
 
- @media screen and (width < 767px) {
+ @media screen and (width < 1024px) {
   .module__list {
     top: 90px;
     left: 30px; 
-    font-size: 16px;
+    font-size: 12px;
+  }
+}  
+
+@media screen and (width < 767px) {
+  li {
+    margin-bottom: 4px
   }
 }  
