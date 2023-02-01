@@ -1,8 +1,7 @@
 .menu {
-  margin: 10px auto 0;
-  padding: 15px 0;
+  margin: 0 auto 0;
+  padding: 0;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   max-width: 1280px;
   min-width: 320px;
@@ -11,7 +10,7 @@
 }
 
 .menu__element {
-  margin: 0 30px 0;
+  margin: 15px 30px;
   padding: 0;
   color: white;
   font-family: 'inter';
@@ -35,30 +34,35 @@
 
 @media screen and (max-width: 1023px) {
   .menu__element {
-    margin: 0 20px 0;
+    margin: 15px 20px;
     font-size: 14px;
   }
 }
 
 @media screen and (max-device-width: 1023px) {
   .menu__element {
-    margin: 0 20px 0;
+    margin: 15px 20px;
     font-size: 14px;
   }
 }
 
 @media screen and (max-width: 768px) {
   
+  .menu {
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+
   .menu__element {
-    margin: 0 5px 0;
-    font-size: 6px;
+    margin: 10px 5px;
+    font-size: 8px;
   }
 }
 
 @media screen and (max-device-width: 768px) {
   
   .menu__element {
-    margin: 0 5px 0;
-    font-size: 6px;
+    margin: 10px 5px;
+    font-size: 8px;
   }
 }
