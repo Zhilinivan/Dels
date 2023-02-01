@@ -9,7 +9,6 @@
   text-align: center;
   border: 0;
   background-color:rgb(12, 50, 146);
-  max-width: 20%;
 }
 
 .menu__element:hover {
@@ -17,7 +16,7 @@
   opacity: 0.8;
 }
 
-@media all and ((max-width: 1023px)) {
+@media screen and ((max-width: 1023px)) and ((min-width: 320px)) {
   .menu__element {
     margin: 0 10px 0;
     font-size: 8px;
