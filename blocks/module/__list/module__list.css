@@ -18,13 +18,12 @@ li {
  @media screen and (width < 1024px) {
   .module__list {
     top: 90px;
-    left: 30px; 
+    left: 20px; 
     font-size: 12px;
+  }
+
+  li {
+    margin-bottom: 4px;
   }
 }  
 
-@media screen and (width < 767px) {
-  li {
-    margin-bottom: 4px
-  }
-}  
