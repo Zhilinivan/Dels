@@ -1,8 +1,8 @@
 .main-zone {
   margin: 15px auto 15px;
-  padding: 0;
+  padding: 0 30px;
   max-width: 1280px;
-  height: 480px;
+  height: 470px;
   position: relative;
 }
 
@@ -58,7 +58,7 @@
   color: rgb(12, 50, 146);
   font-family: 'inter';
   font-style:  normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 22px;
   max-width: 80vw;
 } 
