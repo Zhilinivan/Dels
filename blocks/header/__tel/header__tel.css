@@ -1,5 +1,5 @@
 .header__tel {
-  margin: 0;
+  margin: 10px 0 10px;
   padding: 0;
   color: rgb(12, 50, 146);
   font-family: 'inter';
@@ -13,11 +13,13 @@
 @media screen and (max-width: 767px) {
   .header__tel {
     font-size: 16px;
+    margin: 4px 0 10px;
   }
 }
 
 @media screen and (max-device-width: 767px) {
   .header__tel {
     font-size: 16px;
+    margin: 4px 0 10px;
   }
 }
