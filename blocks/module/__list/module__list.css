@@ -15,7 +15,7 @@ li {
   margin-bottom: 8px
  }
 
- @media all and (width < 1024px) {
+ @media screen and ((max-width: 1024px)) {
   .module__list {
     top: 90px;
     left: 20px; 

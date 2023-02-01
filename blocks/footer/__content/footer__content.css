@@ -10,7 +10,7 @@
   opacity: 0.8;
 }
 
-@media all and (width < 1023px) {
+@media screen and ((max-width: 1023px)) {
   .footer__content {
     font-size: 10px;
   }

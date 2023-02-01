@@ -17,7 +17,7 @@
   opacity: 0.8;
 }
 
-@media all and (width < 1024px) {
+@media screen and ((max-width: 1023px)) {
   .menu__element {
     margin: 0 10px 0;
     font-size: 8px;
