@@ -109,13 +109,13 @@ li {
 
   .module__title {
     top: 20px;
-    left: 30px; 
+    left: 10px; 
     font-size: 20px;
   }
   
   .module__list {
     top: 95px;
-    left: 40px; 
+    left: 30px; 
     font-size: 16px;
   }
 
@@ -128,13 +128,13 @@ li {
   
   .module__title {
     top: 20px;
-    left: 30px; 
+    left: 10px; 
     font-size: 20px;
   }
   
   .module__list {
     top: 95px;
-    left: 40px; 
+    left: 30px; 
     font-size: 16px;
   }
 

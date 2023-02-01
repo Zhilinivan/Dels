@@ -2,6 +2,7 @@
   margin: 10px auto 0;
   padding: 15px 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   max-width: 1280px;
   min-width: 320px;
@@ -48,24 +49,16 @@
 
 @media screen and (max-width: 768px) {
   
-  .menu {
-
-  }
-  
   .menu__element {
-    margin: 0 10px 0;
-    font-size: 10px;
+    margin: 0 5px 0;
+    font-size: 6px;
   }
 }
 
 @media screen and (max-device-width: 768px) {
   
-  .menu {
-  
-  }
-  
   .menu__element {
-    margin: 0 10px 0;
-    font-size: 10px;
+    margin: 0 5px 0;
+    font-size: 6px;
   }
 }
