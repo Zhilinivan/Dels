@@ -19,13 +19,27 @@
 @media screen and (max-width: 1023px) {
   .menu__element {
     margin: 0 10px 0;
-    font-size: 8px;
+    font-size: 14px;
   }
 }
 
 @media screen and (max-device-width: 1023px) {
   .menu__element {
     margin: 0 10px 0;
-    font-size: 8px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .menu__element {
+    margin: 0 10px 0;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-device-width: 767px) {
+  .menu__element {
+    margin: 0 10px 0;
+    font-size: 10px;
   }
 }
