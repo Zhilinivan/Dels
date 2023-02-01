@@ -51,6 +51,7 @@
   .menu {
     flex-wrap: wrap;
     justify-content: start;
+    padding: 0;
   }
 
   .menu__element {
@@ -64,6 +65,7 @@
   .menu {
     flex-wrap: wrap;
     justify-content: start;
+    padding: 0;
   }
 
   .menu__element {
