@@ -11,4 +11,10 @@
   .header__contact {
     row-gap: 4px;
   }
-}  
+}
+
+@media screen and ((max-device-width: 1023px)) {
+  .header__contact {
+    row-gap: 4px;
+  }
+}

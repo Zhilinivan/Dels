@@ -13,4 +13,10 @@
   .header__time {
     font-size: 8px;
   }
-}  
+}
+
+@media screen and ((max-device-width: 767px)) {
+  .header__time {
+    font-size: 8px;
+  }
+}

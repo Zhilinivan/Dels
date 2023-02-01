@@ -14,4 +14,10 @@
   .header__slogan {
     display: none;
   }
-}  
+}
+
+@media screen and ((max-device-width: 767px)) {
+  .header__slogan {
+    display: none;
+  }
+}

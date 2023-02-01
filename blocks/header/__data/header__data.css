@@ -14,4 +14,10 @@
   .header__data {
     font-size: 12px;
   }
-}  
+}
+
+@media screen and ((max-device-width: 767px)) {
+  .header__data {
+    font-size: 12px;
+  }
+}

@@ -14,7 +14,6 @@
 li {
   margin-bottom: 8px
  }
-
  @media screen and ((max-width: 1024px)) {
   .module__list {
     top: 90px;
@@ -25,5 +24,17 @@ li {
   li {
     margin-bottom: 4px;
   }
-}  
+}
+
+ @media screen and ((max-device-width: 1024px)) {
+  .module__list {
+    top: 90px;
+    left: 20px; 
+    font-size: 12px;
+  }
+
+  li {
+    margin-bottom: 4px;
+  }
+}
 
